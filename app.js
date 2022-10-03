@@ -47,7 +47,8 @@ const createItems = () => {
   <img src="img/icon-check.svg" />
 </div>
 </div>
-<div class="todo-text ">${text}</div>
+<div class="todo-text ">
+<p>${text}</P></div>
 </div>`;
     })
     .join("");
